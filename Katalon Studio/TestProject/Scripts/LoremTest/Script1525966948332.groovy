@@ -18,26 +18,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://identity.getpostman.com/')
 
-int a = 3;
-for(int i=0;i<2;i++) {
-	
-if (a==10) {
-WebUI.setText(findTestObject('PostmanObjects/Page_Postman - Sign In/input_username'), findTestData('TestDataFile').getValue(
-        1, 2))
+String name = CustomKeywords.'testPackage.randomDataGenerator.getGetRandomName'(3, 7)
 
-WebUI.setText(findTestObject('PostmanObjects/Page_Postman - Sign In/input_password'), findTestData('TestDataFile').getValue(
-        2, 2))
+WebUI.setText(findTestObject('PostmanObjects/Page_Postman - Sign In/input_username'), name)
 
-WebUI.click(findTestObject('PostmanObjects/Page_Postman - Sign In/button_Sign In'))
-}
-else {
-	System.out.println("Condition not matched !!")
-}
-}
+WebUI.delay(20)
 
