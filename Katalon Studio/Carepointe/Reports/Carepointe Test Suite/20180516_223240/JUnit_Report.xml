@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Carepointe Test Suite" time="99" tests="0" failures="1" errors="1">
+   <testsuite name="Carepointe Test Suite" tests="0" failures="1" errors="1" time="99" timestamp="2018-05-16 22:32:46" hostname="TANUJ - TANUJ-PC" id="Test Suites/Carepointe Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223240"/>
+         <property name="logFiles" value="C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223240\\execution0.log, C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223240\\IEDriverServer.log"/>
+         <property name="attachments" value="C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223240\\1526490197841.png"/>
+         <property name="hostName" value="TANUJ - TANUJ-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="192.168.43.231"/>
+         <property name="sessionId" value="fd834bf9-cc6c-4ec6-8a24-02fab2636814"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to https://uat.cms.carepointe.cloud/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27920/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: fd834bf9-cc6c-4ec6-8a24-02fab2636814)"/>
+         <system-out><![CDATA[2018-05-16 22:32:47 - [TEST_CASE][FAILED] - Test Cases/TC_Login: Test Cases/TC_Login FAILED because (of) Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to https://uat.cms.carepointe.cloud/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27920/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: fd834bf9-cc6c-4ec6-8a24-02fab2636814)
+
+2018-05-16 22:32:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-16 22:33:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-16 22:33:17 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to https://uat.cms.carepointe.cloud/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27920/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: fd834bf9-cc6c-4ec6-8a24-02fab2636814)
+
+2018-05-16 22:33:18 - [MESSAGE][FAILED] - Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to https://uat.cms.carepointe.cloud/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27920/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: fd834bf9-cc6c-4ec6-8a24-02fab2636814)
+[[ATTACHMENT|C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223240\\1526490197841.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-16 22:32:47 - [TEST_CASE][FAILED] - Test Cases/TC_Login: Test Cases/TC_Login FAILED because (of) Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to https://uat.cms.carepointe.cloud/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27920/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: fd834bf9-cc6c-4ec6-8a24-02fab2636814)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CIDN_AddGroup" classname="Test Cases/TC_CIDN_AddGroup" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC_CIDN_AddGroup FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found"/>
+         <system-out><![CDATA[2018-05-16 22:33:18 - [TEST_CASE][ERROR] - Test Cases/TC_CIDN_AddGroup: Test Cases/TC_CIDN_AddGroup FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found
+
+2018-05-16 22:33:18 - [TEST_STEP][ERROR] - carepointe.verifyMenuItems.clickMenu: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found
+
+2018-05-16 22:33:50 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found]]></system-out>
+         <system-err><![CDATA[2018-05-16 22:33:18 - [TEST_CASE][ERROR] - Test Cases/TC_CIDN_AddGroup: Test Cases/TC_CIDN_AddGroup FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-16 22:32:46 - [TEST_SUITE][FAILED] - Carepointe Test Suite: Test Cases/TC_Login FAILED because (of) Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to https://uat.cms.carepointe.cloud/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27920/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: fd834bf9-cc6c-4ec6-8a24-02fab2636814)]]></system-out>
+      <system-err><![CDATA[2018-05-16 22:32:46 - [TEST_SUITE][FAILED] - Carepointe Test Suite: Test Cases/TC_Login FAILED because (of) Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to https://uat.cms.carepointe.cloud/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27920/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: fd834bf9-cc6c-4ec6-8a24-02fab2636814)]]></system-err>
+   </testsuite>
+</testsuites>

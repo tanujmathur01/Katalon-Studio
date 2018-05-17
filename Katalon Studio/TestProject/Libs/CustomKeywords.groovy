@@ -5,6 +5,16 @@
 
 import com.kms.katalon.core.testobject.TestObject
 
+import java.util.List
+
+
+def static "VerifyExpectedAndActualOptionsInDropdown.VerifyExpectedAndActual"(
+    	TestObject objectto	
+     , 	java.util.List<java.lang.String> listOfOptions	) {
+    (new VerifyExpectedAndActualOptionsInDropdown()).VerifyExpectedAndActual(
+        	objectto
+         , 	listOfOptions)
+}
 
 def static "testPackage.randomDataGenerator.getRandomParagraphs"(
     	int a	
@@ -52,10 +62,22 @@ def static "testPackage.randomDataGenerator.getRandomEmail"() {
     (new testPackage.randomDataGenerator()).getRandomEmail()
 }
 
+def static "newpackage.HighlightElement.run"(
+    	TestObject objectto	) {
+    (new newpackage.HighlightElement()).run(
+        	objectto)
+}
+
 def static "testPackage.VerifyLinkText.verifyLinkText"(
     	TestObject object	) {
     (new testPackage.VerifyLinkText()).verifyLinkText(
         	object)
+}
+
+def static "VerifyDrodownValues_AlphabeticalOrder.verifyOptionsInDropdownInAphabeticalOrder"(
+    	TestObject objectto	) {
+    (new VerifyDrodownValues_AlphabeticalOrder()).verifyOptionsInDropdownInAphabeticalOrder(
+        	objectto)
 }
 
 def static "testPackage.verifyOptionOrder.verifyAscendingOrder"(

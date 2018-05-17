@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>C%%Users%TANUJ%Katalon Studio%TestProject%TestProject.prj</name>
+	<name>C%%Users%TANUJ%Katalon Studio%Carepointe%Carepointe.prj</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1525455164719</id>
+			<id>1526055943130</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +26,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1525455164727</id>
+			<id>1526055943154</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -35,7 +35,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1526053744578</id>
+			<id>1526227885802</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -44,25 +44,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1526053744589</id>
-			<name></name>
-			<type>6</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1526436926741</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1526436926762</id>
+			<id>1526227885814</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

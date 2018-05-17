@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Login</name>
+   <tag></tag>
+   <comment>Navigating to url</comment>
+   <testCaseGuid>1c61dc8a-3fb2-477b-aca2-395d577a467b</testCaseGuid>
+   <variable>
+      <defaultValue>'DASHBOARD'</defaultValue>
+      <description></description>
+      <id>ea383981-306a-498a-938e-274ee349b57b</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

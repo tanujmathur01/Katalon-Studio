@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Carepointe Test Suite,Firefox 60.0,,2018-05-16 22:32:46,2018-05-16 22:34:40,1m - 54.648s,FAILED
+,,,,,,
+Test Cases/TC_Login,Firefox 60.0,,2018-05-16 22:32:47,2018-05-16 22:34:19,1m - 32.275s,FAILED
+openBrowser,Firefox 60.0,,2018-05-16 22:32:48,2018-05-16 22:33:57,1m - 9.140s,PASSED
+navigateToUrl,Firefox 60.0,,2018-05-16 22:33:57,2018-05-16 22:34:19,22.087s,FAILED
+,,,,,,
+Test Cases/TC_CIDN_AddGroup,Firefox 60.0,,2018-05-16 22:34:19,2018-05-16 22:34:40,20.896s,ERROR
+carepointe.verifyMenuItems.clickMenu,Firefox 60.0,,2018-05-16 22:34:19,2018-05-16 22:34:40,20.510s,ERROR

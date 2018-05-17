@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CIDN_AddGroup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1e6461b-6ce0-4907-9f71-f0ae7ea1d6b5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f96a281e-95ca-4c6b-ba8c-27824ec9ac6a</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>

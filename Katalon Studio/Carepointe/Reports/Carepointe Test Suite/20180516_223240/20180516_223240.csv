@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Carepointe Test Suite,IE 11,,2018-05-16 22:32:46,2018-05-16 22:34:25,1m - 39.639s,FAILED
+,,,,,,
+Test Cases/TC_Login,IE 11,,2018-05-16 22:32:47,2018-05-16 22:33:18,31.356s,FAILED
+openBrowser,IE 11,,2018-05-16 22:32:48,2018-05-16 22:33:17,29.234s,PASSED
+navigateToUrl,IE 11,,2018-05-16 22:33:17,2018-05-16 22:33:18,1.012s,FAILED
+,,,,,,
+Test Cases/TC_CIDN_AddGroup,IE 11,,2018-05-16 22:33:18,2018-05-16 22:33:50,32.238s,ERROR
+carepointe.verifyMenuItems.clickMenu,IE 11,,2018-05-16 22:33:18,2018-05-16 22:33:50,31.908s,ERROR

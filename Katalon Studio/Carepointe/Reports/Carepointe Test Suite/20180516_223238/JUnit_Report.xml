@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Carepointe Test Suite" time="114" tests="0" failures="1" errors="1">
+   <testsuite name="Carepointe Test Suite" tests="0" failures="1" errors="1" time="114" timestamp="2018-05-16 22:32:46" hostname="TANUJ - TANUJ-PC" id="Test Suites/Carepointe Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223238"/>
+         <property name="logFiles" value="C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223238\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223238\\1526490257094.png, C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223238\\1526490257542.png"/>
+         <property name="hostName" value="TANUJ - TANUJ-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.43.231"/>
+         <property name="sessionId" value="15c722ced92294649224a5d84d26d5b9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' located by 'By.xpath: //span[(text() = 'Dashboard ' or . = 'Dashboard ')]' not found)"/>
+         <system-out><![CDATA[2018-05-16 22:32:47 - [TEST_CASE][FAILED] - Test Cases/TC_Login: Test Cases/TC_Login FAILED because (of) Verify element text of test object 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' located by 'By.xpath: //span[(text() = 'Dashboard ' or . = 'Dashboard ')]' not found)
+
+2018-05-16 22:32:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-16 22:32:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-16 22:32:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://uat.cms.carepointe.cloud/' successfully
+
+2018-05-16 22:33:20 - [MESSAGE][PASSED] - Navigate to 'https://uat.cms.carepointe.cloud/' successfully
+
+2018-05-16 22:33:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-16 22:33:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-16 22:33:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Carepointe Objects/Login/button_Log in' is clicked on
+
+2018-05-16 22:33:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Carepointe Objects/Login/button_Log in' is clicked on
+
+2018-05-16 22:33:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Carepointe Objects/Login/em_Please enter your email add' are matched.
+
+2018-05-16 22:33:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Carepointe Objects/Login/em_Please enter your email add' are matched.
+
+2018-05-16 22:33:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Carepointe Objects/Login/em_Please enter your password' are matched.
+
+2018-05-16 22:33:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Carepointe Objects/Login/em_Please enter your password' are matched.
+
+2018-05-16 22:33:22 - [TEST_STEP][PASSED] - setText: Text 'admin@carepointe.com' is set on object 'Object Repository/Carepointe Objects/Login/input_email'
+
+2018-05-16 22:33:23 - [MESSAGE][PASSED] - Text 'admin@carepointe.com' is set on object 'Object Repository/Carepointe Objects/Login/input_email'
+
+2018-05-16 22:33:23 - [TEST_STEP][PASSED] - setText: Text 'Phoenix2016' is set on object 'Object Repository/Carepointe Objects/Login/input_password'
+
+2018-05-16 22:33:24 - [MESSAGE][PASSED] - Text 'Phoenix2016' is set on object 'Object Repository/Carepointe Objects/Login/input_password'
+
+2018-05-16 22:33:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Carepointe Objects/Login/button_Log in' is clicked on
+
+2018-05-16 22:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Carepointe Objects/Login/button_Log in' is clicked on
+
+2018-05-16 22:33:35 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-05-16 22:33:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-05-16 22:33:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Carepointe Objects/Dashboard/input_search_top' is present
+
+2018-05-16 22:33:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-16 22:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Carepointe Objects/Dashboard/input_search_top' is present
+
+2018-05-16 22:33:45 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' located by 'By.xpath: //span[(text() = 'Dashboard ' or . = 'Dashboard ')]' not found)
+
+2018-05-16 22:34:17 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' located by 'By.xpath: //span[(text() = 'Dashboard ' or . = 'Dashboard ')]' not found
+[[ATTACHMENT|C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223238\\1526490257094.png]]
+
+2018-05-16 22:34:17 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' located by 'By.xpath: //span[(text() = 'Dashboard ' or . = 'Dashboard ')]' not found)
+[[ATTACHMENT|C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223238\\1526490257542.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-16 22:32:47 - [TEST_CASE][FAILED] - Test Cases/TC_Login: Test Cases/TC_Login FAILED because (of) Verify element text of test object 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' located by 'By.xpath: //span[(text() = 'Dashboard ' or . = 'Dashboard ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CIDN_AddGroup" classname="Test Cases/TC_CIDN_AddGroup" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC_CIDN_AddGroup FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found"/>
+         <system-out><![CDATA[2018-05-16 22:34:17 - [TEST_CASE][ERROR] - Test Cases/TC_CIDN_AddGroup: Test Cases/TC_CIDN_AddGroup FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found
+
+2018-05-16 22:34:18 - [TEST_STEP][ERROR] - carepointe.verifyMenuItems.clickMenu: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found
+
+2018-05-16 22:34:39 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found]]></system-out>
+         <system-err><![CDATA[2018-05-16 22:34:17 - [TEST_CASE][ERROR] - Test Cases/TC_CIDN_AddGroup: Test Cases/TC_CIDN_AddGroup FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-16 22:32:46 - [TEST_SUITE][FAILED] - Carepointe Test Suite: Test Cases/TC_Login FAILED because (of) Verify element text of test object 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' located by 'By.xpath: //span[(text() = 'Dashboard ' or . = 'Dashboard ')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-16 22:32:46 - [TEST_SUITE][FAILED] - Carepointe Test Suite: Test Cases/TC_Login FAILED because (of) Verify element text of test object 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/span_Dashboard' located by 'By.xpath: //span[(text() = 'Dashboard ' or . = 'Dashboard ')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

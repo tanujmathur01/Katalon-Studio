@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Carepointe Test Suite" time="114" tests="0" failures="1" errors="1">
+   <testsuite name="Carepointe Test Suite" tests="0" failures="1" errors="1" time="114" timestamp="2018-05-16 22:32:46" hostname="TANUJ - TANUJ-PC" id="Test Suites/Carepointe Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223239"/>
+         <property name="logFiles" value="C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223239\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223239\\1526490259232.png"/>
+         <property name="hostName" value="TANUJ - TANUJ-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.43.231"/>
+         <property name="sessionId" value="cd332fd4-6472-4391-b1f6-7a9de22349fe"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&amp;u=https%3A//uat.cms.carepointe.cloud/&amp;c=UTF-8&amp;f=regular&amp;d=The%20server%20at%20uat.cms.carepointe.cloud%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4024, moz:profile: C:\Users\TANUJ\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd332fd4-6472-4391-b1f6-7a9de22349fe)"/>
+         <system-out><![CDATA[2018-05-16 22:32:47 - [TEST_CASE][FAILED] - Test Cases/TC_Login: Test Cases/TC_Login FAILED because (of) Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=https%3A//uat.cms.carepointe.cloud/&c=UTF-8&f=regular&d=The%20server%20at%20uat.cms.carepointe.cloud%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4024, moz:profile: C:\Users\TANUJ\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd332fd4-6472-4391-b1f6-7a9de22349fe)
+
+2018-05-16 22:32:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-16 22:33:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-16 22:33:57 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=https%3A//uat.cms.carepointe.cloud/&c=UTF-8&f=regular&d=The%20server%20at%20uat.cms.carepointe.cloud%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4024, moz:profile: C:\Users\TANUJ\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd332fd4-6472-4391-b1f6-7a9de22349fe)
+
+2018-05-16 22:34:19 - [MESSAGE][FAILED] - Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=https%3A//uat.cms.carepointe.cloud/&c=UTF-8&f=regular&d=The%20server%20at%20uat.cms.carepointe.cloud%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4024, moz:profile: C:\Users\TANUJ\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd332fd4-6472-4391-b1f6-7a9de22349fe)
+[[ATTACHMENT|C:\\Users\\TANUJ\\Katalon Studio\\Carepointe\\Reports\\Carepointe Test Suite\\20180516_223239\\1526490259232.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-16 22:32:47 - [TEST_CASE][FAILED] - Test Cases/TC_Login: Test Cases/TC_Login FAILED because (of) Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=https%3A//uat.cms.carepointe.cloud/&c=UTF-8&f=regular&d=The%20server%20at%20uat.cms.carepointe.cloud%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4024, moz:profile: C:\Users\TANUJ\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd332fd4-6472-4391-b1f6-7a9de22349fe)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CIDN_AddGroup" classname="Test Cases/TC_CIDN_AddGroup" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC_CIDN_AddGroup FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found"/>
+         <system-out><![CDATA[2018-05-16 22:34:19 - [TEST_CASE][ERROR] - Test Cases/TC_CIDN_AddGroup: Test Cases/TC_CIDN_AddGroup FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found
+
+2018-05-16 22:34:19 - [TEST_STEP][ERROR] - carepointe.verifyMenuItems.clickMenu: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found
+
+2018-05-16 22:34:40 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found]]></system-out>
+         <system-err><![CDATA[2018-05-16 22:34:19 - [TEST_CASE][ERROR] - Test Cases/TC_CIDN_AddGroup: Test Cases/TC_CIDN_AddGroup FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carepointe Objects/Dashboard/div_CarePointe           Dashb' located by 'By.xpath: //div[(text() = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+' or . = '
+	CarePointe:
+      	
+     
+		
+			
+			Dashboard Care Connect Inbox 0Patients 875Actions Appoinments CIDN Registry Telemed Library Patient Updates MonitoringDevicesInbound RefillsPatient AlertsReports ManageCIDN Registry OldSecurity ModelNetworkFacilityOriginInsuranceAlertsCase ProgramsCase flow segmentsDisease StatesICD-10sDRG-RUGFormsNeedsNANDADefault EventsUser ClassesDownloads Dashboard Version Carepointe 1.1n
+     	
+')]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-16 22:32:46 - [TEST_SUITE][FAILED] - Carepointe Test Suite: Test Cases/TC_Login FAILED because (of) Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=https%3A//uat.cms.carepointe.cloud/&c=UTF-8&f=regular&d=The%20server%20at%20uat.cms.carepointe.cloud%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4024, moz:profile: C:\Users\TANUJ\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd332fd4-6472-4391-b1f6-7a9de22349fe)]]></system-out>
+      <system-err><![CDATA[2018-05-16 22:32:46 - [TEST_SUITE][FAILED] - Carepointe Test Suite: Test Cases/TC_Login FAILED because (of) Unable to navigate to 'https://uat.cms.carepointe.cloud/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=https%3A//uat.cms.carepointe.cloud/&c=UTF-8&f=regular&d=The%20server%20at%20uat.cms.carepointe.cloud%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TANUJ-PC', ip: '192.168.43.231', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4024, moz:profile: C:\Users\TANUJ\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd332fd4-6472-4391-b1f6-7a9de22349fe)]]></system-err>
+   </testsuite>
+</testsuites>
